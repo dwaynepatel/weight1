@@ -28,6 +28,10 @@
 
 
 </form>
+<label for="name">Name</label>
+  <input type="text" id="name" class="input"  [(ngModel)]="name" required >
+  <p>{{name}}</p>
+
 
 
 <form [formGroup]="userForm"  *ngIf="!newUser"  (ngSubmit)="login()">
