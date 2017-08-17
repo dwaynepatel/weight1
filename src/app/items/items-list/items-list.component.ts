@@ -23,7 +23,7 @@ export class ItemsListComponent implements OnInit {
     this.items.subscribe(() => this.showSpinner = false)
 
     //check username and show data if user is admin
-    if(this.auth.currentUserDisplayName == "Dwayne Patel" || this.auth.currentUserDisplayName == "Paul Williamson"){
+    if(this.auth.currentUserDisplayName == "Dwayne Patel" || this.auth.currentUserDisplayName == "Paul Williamsonss"){
       this.admin = true;
     }
   }
